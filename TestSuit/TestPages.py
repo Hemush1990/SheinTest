@@ -13,7 +13,7 @@ class Mainpage(object):
 class TestPages(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path=r'C:\Users\user\PycharmProjects\Ozontest\TestSuit\chromedriver.exe')
+        self.driver = webdriver.Chrome()
         self.driver.get('https://www.shein.com/')
 
     def test_loadpage(self):
